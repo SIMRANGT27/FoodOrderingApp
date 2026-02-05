@@ -48,15 +48,19 @@ food-ordering-chatbot/
 1. Clone Repository
 git clone https://github.com/your-username/food-ordering-chatbot.git
 cd food-ordering-chatbot
+
 2. Create Virtual Environment (optional)
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
+
 3. Install Dependencies
 pip install -r requirements.txt
+
 4. Set API Key
 Set your OpenAI API key:
 export OPENAI_API_KEY="your_api_key"
+
 or inside Python:
 os.environ["OPENAI_API_KEY"] = "your_key"
 
@@ -77,6 +81,7 @@ Bot: Adds Indian Thali to order
 
 User: Checkout
 Bot: Confirms and proceeds to checkout
+
 
 
 
