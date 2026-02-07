@@ -272,7 +272,6 @@ if Query:
     # Saving bot response
     st.session_state["message_history"]["response"].append(response)
     
-
     with st.chat_message("assistant"):
         st.write(response.content)
 
